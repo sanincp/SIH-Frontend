@@ -131,7 +131,7 @@ function Logo() {
         <div className="absolute right-0 bottom-0 w-[15px] h-[15px] rounded-[3px] bg-amber-400" />
       </div>
       <div className="leading-none">
-        <div className="text-[26px] font-extrabold tracking-tight text-slate-900">orbit</div>
+        <div className="text-[26px] font-extrabold tracking-tight text-slate-900">Beyond404</div>
         <div className="text-[10.5px] font-medium text-slate-400 mt-1 whitespace-nowrap">
           AI Voice Fraud Detection
         </div>
@@ -205,10 +205,6 @@ function Sidebar({ page, go }) {
           );
         })}
       </nav>
-
-      <div className="orbit-brandmark absolute -bottom-10 -left-10 pointer-events-none" aria-hidden="true">
-  <span /><span /><span /><span />
-</div>
     </aside>
   );
 }
